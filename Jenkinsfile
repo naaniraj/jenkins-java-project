@@ -1,11 +1,7 @@
-pipeline {
-  agent any
-  stages {
-    stage('checkout') {
-      steps {
-        git(url: 'https://github.com/devopsbyraham/jenkins-java-project.git', branch: 'master')
-      }
-    }
-
-  }
-}
+<project>
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-module</artifactId>
+  <version>1</version>
+</project>
